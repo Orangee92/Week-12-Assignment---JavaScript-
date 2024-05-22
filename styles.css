@@ -1,0 +1,97 @@
+/* General Reset */
+* {
+   margin: 0;
+   padding: 0;
+   border: none;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: -apple-system, Arial, sans-serif;
+   background-image: url("assets/colorful.png");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   text-align: center;
+}
+
+h1 {
+   font-size: 400%;
+   background-color: rgb(43, 86, 147);
+   color: white;
+   padding: 20px 0;
+}
+
+/* Navigation bar styles */
+nav {
+   background-color: rgb(149, 131, 190);
+}
+
+nav ul {
+   list-style-type: none;
+   padding: 10px;
+}
+
+nav ul li {
+   display: inline;
+   margin-right: 20px;
+}
+
+nav a {
+   text-decoration: none;
+   color: white;
+   font-size: 1.5rem;
+}
+
+/* Main content and typography styles */
+.fcf-body {
+   padding: 30px;
+   max-width: 100%;
+}
+
+.categorybackground {
+background-color: #86279e;
+opacity: 0.3;
+
+}
+h2 {
+   color: rgb(5, 5, 5);
+   padding: 90px;
+   opacity: 1;
+}
+
+/* Button styles */
+button {
+   cursor: pointer;
+   padding: 10px 20px;
+   border-radius: 30px;
+   background-color: #294cd6;
+   color: white;
+   font-size: 25px;
+   display: block;
+   margin: 20px auto;
+}
+
+button:hover {
+   background-color: #86279e;
+   color: rgb(255, 200, 0);
+}
+
+/* Introduction text styling */
+#introText {
+   margin-top: 10px;
+   border: 5px solid #8e1fa1;
+   padding: 15px;
+   width: 60%;
+   background-color: #97bfc9;
+   color: #000000;
+   font-size: 14px;
+   visibility: hidden;
+   position: relative;
+}
+
+footer {
+   padding: 30px;
+   color: white;
+   background-color: rgb(23, 48, 123);
+} 
